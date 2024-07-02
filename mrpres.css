@@ -1,0 +1,149 @@
+.option-one-screen, 
+.option-two-screen, 
+.option-one-end, 
+.option-two-end  {
+   display:none;
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.giphy.com/media/3o7TKwhW6L2tpmFsqc/giphy.gif);
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin: 20px;
+    display:flex;
+    justify-content:center;
+    
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the screens for option one and option two */
+.option-one-screen,
+.option-two-screen,
+.option-one-end,
+.option-two-end {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the images in the screens */
+.option-one-screen img,
+.option-two-screen img,
+.option-one-end img,
+.option-two-end img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.option-onea{
+    display: none
+}
+.option-twoa{
+    display: none
+}
+
+.option-oneb{
+    display: none
+}
+.option-twob{
+    display: none
+}
+.option-threea{
+    display: none
+}
+.option-foura{
+    display: none
+}
+.option-threeb{
+    display: none
+}
+.option-fourb{
+    display: none
+}
+.option-threec{
+    display: none
+}
+.option-fourc{
+    display: none
+}
+.option-threed{
+    display: none
+}
+.option-fourd{
+    display: none
+}
+.option-game-end-good1{
+    display:none;
+}
+.option-game-end-bad1{
+    display:none;
+}
+/* Style the text in the screens */
+.option-one-screen h1,
+.option-two-screen h1,
+.option-one-end h1,
+.option-two-end h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
